@@ -44,7 +44,7 @@ public class bouncer_L : MonoBehaviour
             rdbounceL2.AddTorque(force);
         }
         
-        if (Input.GetKey("z"))
+        if (Input.GetKey("d"))
         {
             rdbounceR.AddTorque(force1);
         }
