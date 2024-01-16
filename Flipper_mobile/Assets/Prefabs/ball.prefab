@@ -162,5 +162,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  compteur: {fileID: 0}
-  ball: {fileID: 0}
+  compteur: {fileID: 9196105171849163806, guid: 8f2660b2e350b924e88236f690fd87b0, type: 3}

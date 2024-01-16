@@ -7,8 +7,8 @@ public class bouncer_L : MonoBehaviour
     public GameObject bouncer_L1;
     public GameObject bouncer_L2;
     public GameObject bouncer_R;
-    public int force = 100;
-    public int force1 = -100;
+    public int force = 200;
+    public int force1 = -200;
 
     private Rigidbody2D rdbounceL1;
     private Rigidbody2D rdbounceL2;
@@ -21,17 +21,17 @@ public class bouncer_L : MonoBehaviour
         rdbounceR = bouncer_R.GetComponent<Rigidbody2D>();
     }
 
-    void Update()
+    public void Left_bouncer()
     {
-        if (Input.GetButton("Button_L"))
-        {
-            rdbounceL1.AddTorque(force);
-            rdbounceL2.AddTorque(force);
-        }
-        
-        if (Input.GetButton("Button_R"))
-        {
-            rdbounceR.AddTorque(force1);
-        }
+        Debug.Log("left");
+        rdbounceL1.AddTorque(force);
+        rdbounceL2.AddTorque(force);
+    }
+
+
+    public void Right_bouncer()
+    {
+        Debug.Log("right");
+        rdbounceR.AddTorque(force1);
     }
 }
