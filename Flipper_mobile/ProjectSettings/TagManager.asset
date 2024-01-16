@@ -18,6 +18,7 @@ TagManager:
   - 80
   - 150
   - gamemanager
+  - Score
   layers:
   - Default
   - TransparentFX
