@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 public class ball_score : MonoBehaviour
 {
     public int score = 100;
+
     public TMP_Text compteur;
 
     private int[] tag_score = { 5, 10, 20, 30, 40, 50, 60, 70, 80, 150 };
@@ -17,7 +18,11 @@ public class ball_score : MonoBehaviour
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("gamemanager");
-        vie = gameManager.GetComponent<Life>();
+        if (gameManager != null )
+        {
+            vie = gameManager.GetComponent<Life>();
+        }
+        
         compteur.text = "Score : " + score.ToString();
     }
 

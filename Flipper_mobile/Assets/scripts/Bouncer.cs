@@ -23,7 +23,6 @@ public class bouncer_L : MonoBehaviour
 
     public void Left_bouncer()
     {
-        Debug.Log("left");
         rdbounceL1.AddTorque(force);
         rdbounceL2.AddTorque(force);
     }
@@ -31,7 +30,6 @@ public class bouncer_L : MonoBehaviour
 
     public void Right_bouncer()
     {
-        Debug.Log("right");
         rdbounceR.AddTorque(force1);
     }
 }

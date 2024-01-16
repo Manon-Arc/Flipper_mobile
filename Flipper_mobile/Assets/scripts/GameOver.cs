@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class GameOver : MonoBehaviour
@@ -13,8 +14,16 @@ public class GameOver : MonoBehaviour
         scoreText.text = "Score : " + score.ToString();
     }
 
-    void Update()
+    public void redirect_Restart()
     {
-        
+        Debug.Log("restart");
+        SceneManager.LoadScene("SampleScene");
     }
+
+    public void redirect_Menu()
+    {
+        Debug.Log("menu");
+        SceneManager.LoadScene("Menu");
+    }
+
 }
