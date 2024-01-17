@@ -7,6 +7,7 @@ public class bouncer_L : MonoBehaviour
     public GameObject bouncer_L1;
     public GameObject bouncer_L2;
     public GameObject bouncer_R;
+
     public int force = 200;
     public int force1 = -200;
 
@@ -20,6 +21,7 @@ public class bouncer_L : MonoBehaviour
         rdbounceL2 = bouncer_L2.GetComponent<Rigidbody2D>();
         rdbounceR = bouncer_R.GetComponent<Rigidbody2D>();
     }
+    
 
     public void Left_bouncer()
     {
