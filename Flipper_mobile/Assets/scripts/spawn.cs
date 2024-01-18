@@ -5,17 +5,27 @@ using UnityEngine;
 public class Spawn : MonoBehaviour
 {
     public GameObject ball;
+
+    public GameObject Start_pos;
+
+    public GameObject spawn_button;
+
     public float force = 20f;
 
-    void Start()
+    public void Spawn_ball()
     {
-        GameObject newBall = Instantiate(ball, transform.position, Quaternion.identity);
+        Debug.Log("ball cliqued");
+        Start_pos = GameObject.Find("start");
+        Rigidbody2D rigidbodyStart_pos = Start_pos.GetComponent<Rigidbody2D>();
+
+        GameObject newBall = Instantiate(ball, rigidbodyStart_pos.transform.position, Quaternion.identity);
 
         Rigidbody2D rigidbodyBall = newBall.GetComponent<Rigidbody2D>();
 
         if (rigidbodyBall != null)
         {
             rigidbodyBall.AddForce(Vector2.up * force, ForceMode2D.Impulse);
+            spawn_button.SetActive(false);
         }
         else
         {

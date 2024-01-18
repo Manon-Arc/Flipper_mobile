@@ -162,5 +162,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   score: 0
-  test: {fileID: 0}
   compteur: {fileID: 9196105171849163806, guid: 8f2660b2e350b924e88236f690fd87b0, type: 3}
+  spawn_button: {fileID: 7181651678925493813, guid: 201bba101e236a5479bf1f65ea457237, type: 3}

@@ -7,20 +7,30 @@ public class ball_score : MonoBehaviour
 {
     public int score = 10;
 
-    public GameObject test;
     public TMP_Text compteur;
 
     private int[] tag_score = { 5, 10, 20, 30, 40, 50, 60, 70, 80, 150 };
 
-    private GameObject gameManager;
+    private GameObject test;
+
+    public GameObject spawn_button;
+
+    private GameObject life1;
+    private GameObject life2;
+    private GameObject life3;
+
+    private int NbrOfLife = 3;
 
 
     private void Start()
     {
-        gameManager = GameObject.FindGameObjectWithTag("gamemanager");
         test = GameObject.FindGameObjectWithTag("Score");
         compteur = test.GetComponent<TextMeshPro>();
-        
+
+        life1 = GameObject.Find("Life1");
+        life2 = GameObject.Find("Life2");
+        life3 = GameObject.Find("Life3");
+
         compteur.text = "Score : " + score.ToString();
         Debug.Log("test");
     }
@@ -42,8 +52,24 @@ public class ball_score : MonoBehaviour
 
         if (col.gameObject.CompareTag("ball end"))
         {
-            if (gameManager != null)
+            NbrOfLife--;
+
+            if (NbrOfLife == 2)
             {
+                Destroy(life1 );
+                spawn_button.SetActive(true);
+            }
+
+            if (NbrOfLife == 1)
+            {
+                Destroy(life2 );
+                spawn_button.SetActive(true);
+
+            }
+
+            if (NbrOfLife == 0)
+            {
+                Destroy(life3 );
                 PlayerPrefs.SetInt("Score", score);
                 SceneManager.LoadScene("GameOver");
             }
