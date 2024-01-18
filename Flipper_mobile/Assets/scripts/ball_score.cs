@@ -14,17 +14,12 @@ public class ball_score : MonoBehaviour
 
     private GameObject gameManager;
 
-    private Life vie;
 
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("gamemanager");
         test = GameObject.FindGameObjectWithTag("Score");
         compteur = test.GetComponent<TextMeshPro>();
-        if (gameManager != null )
-        {
-            vie = gameManager.GetComponent<Life>();
-        }
         
         compteur.text = "Score : " + score.ToString();
         Debug.Log("test");
@@ -36,9 +31,7 @@ public class ball_score : MonoBehaviour
     {
         if (col.gameObject.CompareTag("ball end"))
         {
-            DestroyVie();
-
-            if (gameManager != null && vie.nombreDeVies == 0)
+            if (gameManager != null)
             {
                 PlayerPrefs.SetInt("Score", score);
                 SceneManager.LoadScene("GameOver");
@@ -59,14 +52,6 @@ public class ball_score : MonoBehaviour
         }
     }
 
-    void DestroyVie()
-    {
-        if (gameManager != null)
-        {
-            vie.DecrementerVies();
-            Destroy(gameObject);
-        }
-    }
 
     void UpdateScoreText(int a)
     {
