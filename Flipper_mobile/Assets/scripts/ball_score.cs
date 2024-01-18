@@ -29,6 +29,17 @@ public class ball_score : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+
+        foreach (int tagScore in tag_score)
+        {
+            if (col.gameObject.CompareTag(tagScore.ToString()))
+            {
+                UpdateScoreText(tagScore);
+                break;
+            }
+        }
+
+
         if (col.gameObject.CompareTag("ball end"))
         {
             if (gameManager != null)
