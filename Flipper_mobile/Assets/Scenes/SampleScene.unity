@@ -1324,7 +1324,7 @@ GameObject:
   - component: {fileID: 390184403}
   - component: {fileID: 390184402}
   m_Layer: 0
-  m_Name: pinball-parts_17
+  m_Name: neon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1401,37 +1401,6 @@ Transform:
   - {fileID: 1855810800}
   - {fileID: 588476181}
   - {fileID: 1896245206}
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &398235057
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 398235058}
-  m_Layer: 0
-  m_Name: conteneur_vie
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &398235058
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398235057}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.09, y: 6.0100007, z: -0.035834312}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &424059328
@@ -1613,7 +1582,7 @@ GameObject:
   - component: {fileID: 481077280}
   - component: {fileID: 481077279}
   m_Layer: 0
-  m_Name: pinball-parts_14 (4)
+  m_Name: triangle_o_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1679,12 +1648,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 481077278}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: 0.8678041, w: 0.49690655}
-  m_LocalPosition: {x: -0.4249951, y: -0.7303164, z: 0}
-  m_LocalScale: {x: 1.0208462, y: 0.9794349, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8678041, w: 0.49690655}
+  m_LocalPosition: {x: 0.52700007, y: -0.554, z: 0}
+  m_LocalScale: {x: 0.51530015, y: -0.5011528, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1448938161}
+  m_Children:
+  - {fileID: 1241884934}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -120.409}
 --- !u!1 &509764981
 GameObject:
@@ -1699,7 +1669,7 @@ GameObject:
   - component: {fileID: 509764983}
   - component: {fileID: 509764982}
   m_Layer: 0
-  m_Name: pinball-parts_15
+  m_Name: white_axe1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1841,10 +1811,7 @@ Transform:
   m_LocalPosition: {x: -0.97810006, y: 4.5420995, z: 0}
   m_LocalScale: {x: 0.12978414, y: 0.2607547, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1691718630}
-  - {fileID: 1882133565}
-  - {fileID: 1753458875}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.933}
 --- !u!1 &519420028
@@ -2372,7 +2339,7 @@ GameObject:
   - component: {fileID: 639062645}
   - component: {fileID: 639062644}
   m_Layer: 0
-  m_Name: pinball-parts_16 (1)
+  m_Name: angleD
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2525,7 +2492,7 @@ Transform:
   m_GameObject: {fileID: 639062643}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.09220656, w: 0.99573994}
-  m_LocalPosition: {x: 1.33, y: -2.25, z: 0}
+  m_LocalPosition: {x: 1.452, y: -2.328, z: 0}
   m_LocalScale: {x: 0.4688023, y: 0.47880098, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3181,7 +3148,7 @@ GameObject:
   - component: {fileID: 754752460}
   - component: {fileID: 754752459}
   m_Layer: 0
-  m_Name: pinball-parts_16 (2)
+  m_Name: angleG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3340,7 +3307,7 @@ Transform:
   m_GameObject: {fileID: 754752458}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.8844315, w: 0.46667016}
-  m_LocalPosition: {x: -2.5509999, y: -2.2229998, z: 0}
+  m_LocalPosition: {x: -2.671, y: -2.305, z: 0}
   m_LocalScale: {x: 0.55130684, y: 0.51438004, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3420,7 +3387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6822099586463464718, guid: 8f2660b2e350b924e88236f690fd87b0, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 7.6119995
+      value: 8.37
       objectReference: {fileID: 0}
     - target: {fileID: 6822099586463464718, guid: 8f2660b2e350b924e88236f690fd87b0, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -3465,7 +3432,7 @@ GameObject:
   - component: {fileID: 757826670}
   - component: {fileID: 757826671}
   m_Layer: 0
-  m_Name: pinball-parts_14 (3)
+  m_Name: triangle_vf_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3479,12 +3446,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 757826669}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.8840906, w: -0.46731567}
-  m_LocalPosition: {x: 1.648, y: -0.54599994, z: 0}
-  m_LocalScale: {x: 0.5153, y: -0.5011527, z: 1}
+  m_LocalRotation: {x: 0, y: -0, z: 0.8383913, w: 0.5450689}
+  m_LocalPosition: {x: -0.43183088, y: -0.6826157, z: 0}
+  m_LocalScale: {x: 1.0234724, y: 0.97696304, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1238537718}
+  m_Father: {fileID: 1324397097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -235.72}
 --- !u!212 &757826671
 SpriteRenderer:
@@ -3695,9 +3662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e6a7da2ea2aa1da43a812801ecd6c959, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefabVie: {fileID: 7584385527332249626, guid: 5596b9f7b6a370f4ab85b79fefbd5181, type: 3}
-  conteneur_vie: {fileID: 398235057}
-  nombreDeVies: 3
 --- !u!1 &801680144
 GameObject:
   m_ObjectHideFlags: 0
@@ -3709,7 +3673,7 @@ GameObject:
   - component: {fileID: 801680146}
   - component: {fileID: 801680145}
   m_Layer: 0
-  m_Name: pinball-parts_14 (1)
+  m_Name: triangle_v_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3775,12 +3739,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 801680144}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.3817194, y: -0.039908193, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: -0, z: -0.8736836, w: 0.4864946}
+  m_LocalPosition: {x: 0.3463426, y: -0.73233426, z: 0}
+  m_LocalScale: {x: 1.0202415, y: 0.98000795, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1448938161}
+  m_Father: {fileID: 1324397097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &815713172
 GameObject:
@@ -4533,8 +4497,8 @@ Transform:
   m_GameObject: {fileID: 965137348}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0973, y: 9.98, z: 0}
-  m_LocalScale: {x: 0.87008727, y: 0.8323, z: 1}
+  m_LocalPosition: {x: 0, y: 9.98, z: 0}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4937,8 +4901,8 @@ Transform:
   m_GameObject: {fileID: 1079973196}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.1177, y: 8.3, z: 0}
-  m_LocalScale: {x: 0.8737856, y: 0.875, z: 1}
+  m_LocalPosition: {x: -0, y: 8.85, z: 0}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -5910,9 +5874,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1426280112}
-  - {fileID: 757826670}
-  - {fileID: 1551058093}
-  - {fileID: 1241884934}
   - {fileID: 144914253}
   - {fileID: 1037354396}
   - {fileID: 653179171}
@@ -5931,7 +5892,7 @@ GameObject:
   - component: {fileID: 1241884934}
   - component: {fileID: 1241884935}
   m_Layer: 0
-  m_Name: pinball-parts_14 (5)
+  m_Name: triangle_vf_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5945,12 +5906,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1241884933}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.866204, w: -0.4996905}
-  m_LocalPosition: {x: 0.9410001, y: -0.56099993, z: 0}
-  m_LocalScale: {x: 0.5153, y: -0.5011527, z: 1}
+  m_LocalRotation: {x: 0, y: -0, z: 0.86405593, w: 0.5033959}
+  m_LocalPosition: {x: -0.39494765, y: -0.7195236, z: 0}
+  m_LocalScale: {x: 1.0212168, y: 0.97908306, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1238537718}
+  m_Children:
+  - {fileID: 1448938161}
+  m_Father: {fileID: 481077280}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -239.959}
 --- !u!212 &1241884935
 SpriteRenderer:
@@ -6199,7 +6161,7 @@ GameObject:
   - component: {fileID: 1321873412}
   - component: {fileID: 1321873411}
   m_Layer: 0
-  m_Name: pinball-parts_14 (3)
+  m_Name: triangle_o_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6265,12 +6227,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1321873410}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: 0.8678041, w: 0.49690655}
-  m_LocalPosition: {x: 0.20570542, y: -1.8836573, z: 0}
-  m_LocalScale: {x: 1.0208462, y: 0.9794349, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8678041, w: 0.49690655}
+  m_LocalPosition: {x: 0.85200006, y: 0.02399987, z: 0}
+  m_LocalScale: {x: 0.51530015, y: -0.5011528, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1448938161}
+  m_Children:
+  - {fileID: 1692556323}
+  - {fileID: 1551058093}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -120.409}
 --- !u!1 &1322877812
 GameObject:
@@ -6367,7 +6331,7 @@ GameObject:
   - component: {fileID: 1324397097}
   - component: {fileID: 1324397096}
   m_Layer: 0
-  m_Name: pinball-parts_14 (5)
+  m_Name: triangle_o_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6433,12 +6397,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1324397095}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: 0.8736836, w: 0.4864946}
-  m_LocalPosition: {x: 0.9586648, y: -0.728321, z: 0}
-  m_LocalScale: {x: 1.0202415, y: 0.98000795, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.8736836, w: 0.4864946}
+  m_LocalPosition: {x: 1.24, y: -0.55500007, z: 0}
+  m_LocalScale: {x: 0.5153, y: -0.50115263, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1448938161}
+  m_Children:
+  - {fileID: 757826670}
+  - {fileID: 801680146}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -121.779}
 --- !u!1 &1366559578
 GameObject:
@@ -6655,7 +6621,7 @@ GameObject:
   - component: {fileID: 1448938161}
   - component: {fileID: 1448938160}
   m_Layer: 0
-  m_Name: pinball-parts_14
+  m_Name: trinagle_v_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6721,17 +6687,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1448938159}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.74600005, y: -0.9200001, z: 0}
-  m_LocalScale: {x: 0.5153, y: -0.5011527, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.866204, w: -0.49969047}
+  m_LocalPosition: {x: -0.40568867, y: -0.69043434, z: 0}
+  m_LocalScale: {x: 1.0317626, y: 0.96931773, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 801680146}
-  - {fileID: 1692556323}
-  - {fileID: 1321873412}
-  - {fileID: 481077280}
-  - {fileID: 1324397097}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 1241884934}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1459116061
 GameObject:
@@ -7269,7 +7230,7 @@ GameObject:
   - component: {fileID: 1551058093}
   - component: {fileID: 1551058094}
   m_Layer: 0
-  m_Name: pinball-parts_14 (4)
+  m_Name: triangle_vf_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -7283,12 +7244,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1551058092}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0.8840906, w: -0.46731567}
-  m_LocalPosition: {x: 1.32, y: 0.025000095, z: 0}
-  m_LocalScale: {x: 0.5153, y: -0.5011527, z: 1}
+  m_LocalRotation: {x: 0, y: -0, z: 0.84484875, w: 0.53500515}
+  m_LocalPosition: {x: -0.46138003, y: -0.804372, z: 0}
+  m_LocalScale: {x: 1.0229514, y: 0.9774512, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1238537718}
+  m_Father: {fileID: 1321873412}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -235.72}
 --- !u!212 &1551058094
 SpriteRenderer:
@@ -8073,7 +8034,7 @@ GameObject:
   - component: {fileID: 1691718632}
   - component: {fileID: 1691718631}
   m_Layer: 0
-  m_Name: pinball-parts_15 (1)
+  m_Name: white_axe2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8087,12 +8048,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1691718629}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.0016836419, y: 2.2323687, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7066926, w: 0.7075208}
+  m_LocalPosition: {x: -0.39600003, y: 4.5429997, z: 0}
+  m_LocalScale: {x: 0.12978414, y: 0.2607547, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 509764985}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.933}
 --- !u!61 &1691718631
 BoxCollider2D:
@@ -8229,7 +8190,7 @@ GameObject:
   - component: {fileID: 1692556323}
   - component: {fileID: 1692556322}
   m_Layer: 0
-  m_Name: pinball-parts_14 (2)
+  m_Name: triangle_v_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8295,12 +8256,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1692556321}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: -0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.66563153, y: -1.1872629, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0, y: -0, z: -0.8678041, w: 0.49690655}
+  m_LocalPosition: {x: 0.35130608, y: -0.76034623, z: 0}
+  m_LocalScale: {x: 1.0208458, y: 0.9794343, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1448938161}
+  m_Father: {fileID: 1321873412}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1708997962
 GameObject:
@@ -8613,7 +8574,7 @@ GameObject:
   - component: {fileID: 1753458877}
   - component: {fileID: 1753458876}
   m_Layer: 0
-  m_Name: pinball-parts_15 (3)
+  m_Name: white_axe4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -8627,12 +8588,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1753458874}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.0008909739, y: 6.60046, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7066926, w: 0.7075208}
+  m_LocalPosition: {x: 0.74300003, y: 4.5439997, z: 0}
+  m_LocalScale: {x: 0.12978414, y: 0.2607547, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 509764985}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.933}
 --- !u!61 &1753458876
 BoxCollider2D:
@@ -9207,7 +9168,7 @@ GameObject:
   - component: {fileID: 1882133567}
   - component: {fileID: 1882133566}
   m_Layer: 0
-  m_Name: pinball-parts_15 (2)
+  m_Name: white_axe3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9221,12 +9182,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1882133564}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.003343416, y: 4.368474, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.7066926, w: 0.7075208}
+  m_LocalPosition: {x: 0.1609999, y: 4.5429997, z: 0}
+  m_LocalScale: {x: 0.12978414, y: 0.2607547, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 509764985}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.933}
 --- !u!61 &1882133566
 BoxCollider2D:
@@ -10137,10 +10098,14 @@ SceneRoots:
   - {fileID: 670398048}
   - {fileID: 754752462}
   - {fileID: 639062647}
-  - {fileID: 398235058}
   - {fileID: 390184403}
   - {fileID: 509764985}
-  - {fileID: 1448938161}
+  - {fileID: 1691718630}
+  - {fileID: 1882133565}
+  - {fileID: 1753458875}
+  - {fileID: 1321873412}
+  - {fileID: 481077280}
+  - {fileID: 1324397097}
   - {fileID: 480421944}
   - {fileID: 337957228}
   - {fileID: 1771113417}

@@ -8,8 +8,8 @@ public class bouncer_L : MonoBehaviour
     public GameObject bouncer_L2;
     public GameObject bouncer_R;
 
-    public int force = 200;
-    public int force1 = -200;
+    public int force = 100;
+    public int force1 = -100;
 
     private Rigidbody2D rdbounceL1;
     private Rigidbody2D rdbounceL2;
