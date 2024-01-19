@@ -2,18 +2,19 @@ using System.Collections;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
+using Unity.VisualScripting;
 
 public class ball_score : MonoBehaviour
 {
-    public int score = 10;
+    GameManage score_game;
 
-    public TMP_Text compteur;
+    GameObject gameManager;
 
     private int[] tag_score = { 5, 10, 20, 30, 40, 50, 60, 70, 80, 150 };
 
     private GameObject test;
 
-    public GameObject spawn_button;
+    private GameObject spawn_button;
 
     private GameObject life1;
     private GameObject life2;
@@ -21,15 +22,21 @@ public class ball_score : MonoBehaviour
 
     private void Start()
     {
-        test = GameObject.FindGameObjectWithTag("Score");
-        compteur = test.GetComponent<TextMeshPro>();
+        gameManager = GameObject.FindGameObjectWithTag("gamemanager");
+        score_game = gameManager.GetComponent<GameManage>();
+
+        spawn_button = GameObject.Find("Ball_spawn");
+        spawn_button.SetActive(false);
 
         life1 = GameObject.Find("Life1");
         life2 = GameObject.Find("Life2");
         life3 = GameObject.Find("Life3");
 
-        compteur.text = "Score : " + score.ToString();
-        Debug.Log("test");
+    }
+
+    private void OnDestroy()
+    {
+        spawn_button?.SetActive(true);
     }
 
     void OnTriggerEnter2D(Collider2D col)
@@ -47,29 +54,27 @@ public class ball_score : MonoBehaviour
 
         if (col.gameObject.CompareTag("ball end"))
         {
-
-            if (life1)
+            if (life3 != null && life2 == null && life1 == null)
             {
-                Destroy(life1 );
-                spawn_button.SetActive(true);
-                Destroy(gameObject);
-            }
-
-            if (life2)
-            {
-                Destroy(life2 );
-                spawn_button.SetActive(true);
-                Destroy(gameObject);
-
-            }
-
-            if (life3)
-            {
-                Destroy(life3 );
-                Destroy(gameObject);
-                PlayerPrefs.SetInt("Score", score);
+                Destroy(life3);
+                PlayerPrefs.SetInt("Score", score_game.score_int);
                 SceneManager.LoadScene("GameOver");
             }
+
+            if (life2 != null && life1 == null && life3 != null)
+            {
+                Destroy(life2);
+                Destroy(gameObject);
+
+            }
+
+            if (life1 != null && life2 != null && life3 != null)
+            {
+                Destroy(life1);
+                Destroy(gameObject);
+                
+            }
+
         }
     }
 
@@ -89,7 +94,6 @@ public class ball_score : MonoBehaviour
 
     void UpdateScoreText(int a)
     {
-        score += a;
-        compteur.text = "Score : " + score.ToString();
+        score_game.UpdateScore(a);
     }
 }

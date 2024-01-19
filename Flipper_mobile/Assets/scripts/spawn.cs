@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class Spawn : MonoBehaviour
@@ -14,17 +15,16 @@ public class Spawn : MonoBehaviour
 
     public void Spawn_ball()
     {
-        Debug.Log("ball cliqued");
         Start_pos = GameObject.Find("start");
+        
 
         GameObject newBall = Instantiate(ball, Start_pos.transform.position, Quaternion.identity);
-
         Rigidbody2D rigidbodyBall = newBall.GetComponent<Rigidbody2D>();
 
         if (rigidbodyBall != null)
         {
             rigidbodyBall.AddForce(Vector2.up * force, ForceMode2D.Impulse);
-            spawn_button.SetActive(false);
+ 
         }
         else
         {

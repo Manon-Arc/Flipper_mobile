@@ -19,6 +19,7 @@ TagManager:
   - 150
   - gamemanager
   - Score
+  - ball_spawn
   layers:
   - Default
   - TransparentFX
