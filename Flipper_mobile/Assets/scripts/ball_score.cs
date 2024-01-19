@@ -19,9 +19,6 @@ public class ball_score : MonoBehaviour
     private GameObject life2;
     private GameObject life3;
 
-    private int NbrOfLife = 3;
-
-
     private void Start()
     {
         test = GameObject.FindGameObjectWithTag("Score");
@@ -34,8 +31,6 @@ public class ball_score : MonoBehaviour
         compteur.text = "Score : " + score.ToString();
         Debug.Log("test");
     }
-
-
 
     void OnTriggerEnter2D(Collider2D col)
     {
@@ -52,24 +47,26 @@ public class ball_score : MonoBehaviour
 
         if (col.gameObject.CompareTag("ball end"))
         {
-            NbrOfLife--;
 
-            if (NbrOfLife == 2)
+            if (life1)
             {
                 Destroy(life1 );
                 spawn_button.SetActive(true);
+                Destroy(gameObject);
             }
 
-            if (NbrOfLife == 1)
+            if (life2)
             {
                 Destroy(life2 );
                 spawn_button.SetActive(true);
+                Destroy(gameObject);
 
             }
 
-            if (NbrOfLife == 0)
+            if (life3)
             {
                 Destroy(life3 );
+                Destroy(gameObject);
                 PlayerPrefs.SetInt("Score", score);
                 SceneManager.LoadScene("GameOver");
             }

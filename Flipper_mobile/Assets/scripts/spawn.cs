@@ -10,15 +10,14 @@ public class Spawn : MonoBehaviour
 
     public GameObject spawn_button;
 
-    public float force = 20f;
+    private int force = 70;
 
     public void Spawn_ball()
     {
         Debug.Log("ball cliqued");
         Start_pos = GameObject.Find("start");
-        Rigidbody2D rigidbodyStart_pos = Start_pos.GetComponent<Rigidbody2D>();
 
-        GameObject newBall = Instantiate(ball, rigidbodyStart_pos.transform.position, Quaternion.identity);
+        GameObject newBall = Instantiate(ball, Start_pos.transform.position, Quaternion.identity);
 
         Rigidbody2D rigidbodyBall = newBall.GetComponent<Rigidbody2D>();
 
