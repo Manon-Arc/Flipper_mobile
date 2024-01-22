@@ -12,14 +12,11 @@ public class ball_score : MonoBehaviour
 
     private int[] tag_score = { 5, 10, 20, 30, 40, 50, 60, 70, 80, 150 };
 
-    private GameObject test;
-
     private GameObject spawn_button;
 
     private GameObject life1;
     private GameObject life2;
     private GameObject life3;
-
     private void Start()
     {
         gameManager = GameObject.FindGameObjectWithTag("gamemanager");
@@ -31,7 +28,6 @@ public class ball_score : MonoBehaviour
         life1 = GameObject.Find("Life1");
         life2 = GameObject.Find("Life2");
         life3 = GameObject.Find("Life3");
-
     }
 
     private void OnDestroy()
@@ -41,6 +37,7 @@ public class ball_score : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D col)
     {
+
 
         foreach (int tagScore in tag_score)
         {

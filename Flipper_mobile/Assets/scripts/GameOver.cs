@@ -4,7 +4,6 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-
 public class GameOver : MonoBehaviour
 {
     public TMP_Text scoreText;
@@ -16,14 +15,11 @@ public class GameOver : MonoBehaviour
 
     public void redirect_Restart()
     {
-        Debug.Log("restart");
         SceneManager.LoadScene("Game");
     }
 
     public void redirect_Menu()
     {
-        Debug.Log("menu");
         SceneManager.LoadScene("Menu");
     }
-
 }
