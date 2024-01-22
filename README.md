@@ -1,6 +1,6 @@
 # Projet Unity : Cyber Bounce Flipper
 
-par **ARCAS** Manon *B2 informatique*
+par **ARCAS** Manon, **RAFFANEL** Guilhem,  *B2 informatique*
 
 I. [Présentation du projet](#i-présentation-du-projet)
 
