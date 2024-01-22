@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class bouncer_L : MonoBehaviour
 {
@@ -33,5 +34,11 @@ public class bouncer_L : MonoBehaviour
     public void Right_bouncer()
     {
         rdbounceR.AddTorque(force1);
+    }
+
+    public void Restart()
+    {
+        SceneManager.LoadScene("Game");
+        Debug.Log("button restart pressed");
     }
 }
