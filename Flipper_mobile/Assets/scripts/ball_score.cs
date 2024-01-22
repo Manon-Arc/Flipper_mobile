@@ -78,7 +78,6 @@ public class ball_score : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log(collision.gameObject.tag);
         foreach (int tagScore in tag_score)
         {
             if (collision.gameObject.CompareTag(tagScore.ToString()))
