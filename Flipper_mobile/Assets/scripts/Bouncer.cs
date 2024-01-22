@@ -38,7 +38,7 @@ public class bouncer_L : MonoBehaviour
 
     public void Restart()
     {
-        SceneManager.LoadScene("Game");
         Debug.Log("button restart pressed");
+        SceneManager.LoadScene("Game");
     }
 }
