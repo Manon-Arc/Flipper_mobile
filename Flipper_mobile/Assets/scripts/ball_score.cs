@@ -65,14 +65,12 @@ public class ball_score : MonoBehaviour
             {
                 Destroy(life2);
                 Destroy(gameObject);
-
             }
 
             if (life1 != null && life2 != null && life3 != null)
             {
                 Destroy(life1);
-                Destroy(gameObject);
-                
+                Destroy(gameObject);   
             }
 
         }
