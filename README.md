@@ -17,7 +17,7 @@ ____
 **Cyber Bounce Flipper** est un jeu d'arcade de type "flipper" en 2D !<br>
 
 Le but est simple : <br>
-Vous contrôlez 3 bumpers à l'aide de boutons pour renvoyer une balle qui se déplace sur le plateau et collecte des points en fonctions des éléments touchés par la balle !<br>
+Vous disposez de 3 vies pour marquer un maximum de points, 2 boutons sont à votre disposition pour contrôlez 3 bumpers permettant de renvoyer une balle sur le plateau qui collectant des points en fonctions des éléments touchés !<br>
 
 ## II. Fonctionnalités disponibles :
 
