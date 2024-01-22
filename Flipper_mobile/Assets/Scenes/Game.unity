@@ -265,8 +265,8 @@ GameObject:
   - component: {fileID: 74412440}
   - component: {fileID: 74412439}
   - component: {fileID: 74412438}
-  - component: {fileID: 74412442}
   - component: {fileID: 74412443}
+  - component: {fileID: 74412444}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -360,23 +360,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &74412442
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74412437}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 624987f68b7d85549b1034ac473a7b27, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bouncer_L1: {fileID: 1182764220}
-  bouncer_L2: {fileID: 1822070259}
-  bouncer_R: {fileID: 1275138132}
-  force: 1000
-  force1: -1000
 --- !u!114 &74412443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -392,6 +375,23 @@ MonoBehaviour:
   ball: {fileID: 3547109568042326257, guid: 08a0d78246bef9041ba6c5cab3808a5d, type: 3}
   Start_pos: {fileID: 1950864765}
   spawn_button: {fileID: 403144705}
+--- !u!114 &74412444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 74412437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 624987f68b7d85549b1034ac473a7b27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bouncer_L1: {fileID: 1822070259}
+  bouncer_L2: {fileID: 1182764220}
+  bouncer_R: {fileID: 1275138132}
+  force: 1000
+  force1: -1000
 --- !u!1 &80151351
 GameObject:
   m_ObjectHideFlags: 0
@@ -2981,7 +2981,7 @@ PrefabInstance:
     - target: {fileID: 4353579541077676281, guid: 0f4da55352ba01d49a1dee796e4246c5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 74412442}
+      objectReference: {fileID: 0}
     - target: {fileID: 4353579541077676281, guid: 0f4da55352ba01d49a1dee796e4246c5, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
       value: Restart
@@ -5582,7 +5582,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74412442}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: bouncer_L, Assembly-CSharp
         m_MethodName: Left_bouncer
         m_Mode: 1
@@ -11176,7 +11176,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 74412442}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: bouncer_L, Assembly-CSharp
         m_MethodName: Right_bouncer
         m_Mode: 1
