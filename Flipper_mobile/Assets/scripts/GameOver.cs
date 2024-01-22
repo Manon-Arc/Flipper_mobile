@@ -17,7 +17,7 @@ public class GameOver : MonoBehaviour
     public void redirect_Restart()
     {
         Debug.Log("restart");
-        SceneManager.LoadScene("SampleScene");
+        SceneManager.LoadScene("Game");
     }
 
     public void redirect_Menu()

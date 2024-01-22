@@ -5582,7 +5582,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 74412444}
         m_TargetAssemblyTypeName: bouncer_L, Assembly-CSharp
         m_MethodName: Left_bouncer
         m_Mode: 1
@@ -11176,7 +11176,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 74412444}
         m_TargetAssemblyTypeName: bouncer_L, Assembly-CSharp
         m_MethodName: Right_bouncer
         m_Mode: 1
