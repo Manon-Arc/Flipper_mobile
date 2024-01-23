@@ -31,7 +31,7 @@ Vous disposez de 3 vies pour marquer un maximum de points, 2 boutons sont à vot
 
 - Compteur de 3 vies indiqués par des images de balles,
 
-- Obtacles personnalisés : nombres de points différents,
+- Obtacles personnalisés : nombres de points différents, obstacle physique ou non,
 
 - Obstacle "trou noir" : attirance de la balle pour dévier sa trajectoire,
 
