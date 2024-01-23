@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AttrackHole : MonoBehaviour
 {
-    private float forceMagnitude = 50f;
+    public float forceMagnitude = 50F;
 
     public AudioClip oneShotClip;
     private AudioSource audioSource;
