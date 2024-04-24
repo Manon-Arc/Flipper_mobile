@@ -1,65 +1,57 @@
-# Projet Unity : Cyber Bounce Flipper
+# Unity Project: Cyber Bounce Flipper
 
-par **ARCAS** Manon, **RAFFANEL** Guilhem,  *B2 informatique*
+by **ARCAS** Manon, **RAFFANEL** Guilhem
 
-I. [Présentation du projet](#i-présentation-du-projet)
+**Cyber Bounce Flipper** is a 2D arcade game of the "flipper" type!
+The goal is simple: You have 3 lives to score as many points as possible. Two buttons are at your disposal to control 3 bumpers, allowing you to bounce a ball on the board and collect points based on the elements hit!
 
-II. [Fonctionnalités](#ii-fonctionnalités-disponibles)
+## 📌 Table of Contents :
+   
+I. [Prerequisites](#🔧-i-prerequisites)  
+II. [Availables Features](#🌟-ii-available-features)  
+III. [How to Install the Project](#💻-iii-how-to-install-the-project)  
 
-III. [Comment installer le projet](#iii-comment-installer-le-projet)
-1. [Installation](#1-installation)
-2. [Lancement](#2-lancement)
+## 🎯 Badges :
 
-____
+[![Csharp logo](https://img.shields.io/badge/Language-CSharp-green
+)](https://learn.microsoft.com/fr-fr/dotnet/csharp//)
+[![Unity logo](https://img.shields.io/badge/Software-Unity-black
+)](https://unity.com/fr/)
 
-## I. Présentation du projet :
+## 🔧 I. Prerequisites :
 
-**Cyber Bounce Flipper** est un jeu d'arcade de type "flipper" en 2D !<br>
+- [Unity](https://unity.com/fr/download) installed on your system.
 
-Le but est simple : <br>
-Vous disposez de 3 vies pour marquer un maximum de points, 2 boutons sont à votre disposition pour contrôlez 3 bumpers permettant de renvoyer une balle sur le plateau qui collectant des points en fonctions des éléments touchés !<br>
+## 🌟 II. Availables Features :
 
-## II. Fonctionnalités disponibles :
+- 3 scenes: Menu, Game, and Game Over,
+- Launch the ball using a button that appears/disappears during the game,
+- Activate the board's bumpers using buttons,
+- "Restart" button on the game scene,
+- Counter of 3 lives indicated by ball images,
+- Custom obstacles: different point values, physical or non-physical obstacles,
+- "Black hole" obstacle: attracts the ball to deflect its trajectory,
+- Real-time score displayed during the game,
+- Background music during the game,
+- Sound effects during and at the end of the game,
+- Score displayed on the "Game Over" scene,
+- Ability to restart a game immediately after a Game Over.
 
-- 3 scènes : Menu, Game et Game Over,
-
-- Lancement de la balle à l'aide d'un bouton qui apparaît/disparaît au cours de la partie, 
-
-- Activation des bumpers du plateau à l'aide des boutons,
-
-- Présence d'un bouton "restart" sur la scène du jeu,
-
-- Compteur de 3 vies indiqués par des images de balles,
-
-- Obtacles personnalisés : nombres de points différents, obstacle physique ou non,
-
-- Obstacle "trou noir" : attirance de la balle pour dévier sa trajectoire,
-
-- Score affiché en temps réel durant la partie,
-
-- Musique de fond durant la partie,
-
-- Effet sonore durant et à la fin de la partie,
-
-- Score affiché sur la scène "Game Over",
-
-- Possibilité de relancer directement une partie à la suite d'un Game Over.
-
-## III. Comment installer le projet :
+## 💻 III. How to Install the Project :
 
 ### 1. Installation :
 
 - Cloner le repo avec la commande suivante :
 ```bash
-git clone https://github.com/Manon-Arc/Flipper_mobile
+git clone https://github.com/Manon-Arc/Flipper_mobile.git
 ```
-- Ouvrir le projet depuis [Unity](https://unity.com/fr/download)
+- Open the project from [Unity](https://unity.com/fr/download)
 
-- Cliquer sur Asset -> Scenes -> Menu
+- Click on Asset -> Scenes -> Menu
 
 ### 2. Lancement :
 
-- Presser le bouton suivant :
+- Press the following button :
 
 ![button](./img/button.png)
 
