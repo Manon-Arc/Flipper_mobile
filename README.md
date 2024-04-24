@@ -14,7 +14,7 @@ III. [How to Install the Project](#💻-iii-how-to-install-the-project)
 ## 🎯 Badges :
 
 [![Csharp logo](https://img.shields.io/badge/Language-CSharp-green
-)](https://learn.microsoft.com/fr-fr/dotnet/csharp//)
+)](https://learn.microsoft.com/fr-fr/dotnet/csharp/)
 [![Unity logo](https://img.shields.io/badge/Software-Unity-black
 )](https://unity.com/fr/)
 
